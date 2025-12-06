@@ -1,2 +1,0 @@
-Nombre: "Ana", Edad: "18"Nombre: "Ana", Edad: "18"
-Nombre: "Jesus", Edad: "19"
