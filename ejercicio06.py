@@ -8,7 +8,6 @@ def resultados_num():
         valor_absoluto = abs(num)
         valor_e = math.pow(math.e, num)
 
-        # Resultados
         print("\nResultados")
         print(f"Número: {num}")
         print(f"Raíz cuadrada: {raiz_cuadrada:.2f}")
@@ -22,3 +21,5 @@ def main():
     resultados_num()
 
 main()
+
+

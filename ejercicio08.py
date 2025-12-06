@@ -1,7 +1,7 @@
 def leer_datos():
     try: 
         with open("datos.txt", "r") as archivo:
-            lineas = archivo.readlineas()
+            lineas = archivo.readlines()
 
             for linea in lineas:
                 print(linea.strip())
@@ -13,3 +13,5 @@ def leer_datos():
         print("Error: El archivo datos.txt no existe.")
 
 leer_datos()
+
+

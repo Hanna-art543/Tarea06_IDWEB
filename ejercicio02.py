@@ -20,3 +20,5 @@ gerente1 = Gerente ("Matías", 8000, "Ventas")
 
 print(empleado1.mostrar_info())
 print(gerente1.mostrar_info())
+
+

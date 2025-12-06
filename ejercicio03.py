@@ -6,11 +6,10 @@ class Libro:
     
     @staticmethod
     def es_extenso(libro):
-        if libro.paginas > 300:
-            return True
-        else:
-            return False
+        return libro.paginas > 300
 
+
+libros = []
 
 while True:
     print("\nPrograma para verificar la extensión del libro. Para salir coloque 0 en número de páginas.")
@@ -20,9 +19,14 @@ while True:
     numPag = int(input("Número de páginas: "))
 
     if numPag == 0:
-        print("Programa finalizado.")
         break
 
     libro = Libro(titulo, autor, numPag)
+    libros.append(libro)
 
     print("Es extenso:", Libro.es_extenso(libro))
+
+
+print("\nRESUMEN")
+for lib in libros:
+    print(f"'{lib.titulo}' — Extenso: {Libro.es_extenso(lib)}")
