@@ -1,0 +1,6 @@
+[
+    {"nombre": "Ana", "edad": 25, "pais": "Perú"},
+    {"nombre": "Luis", "edad": 32, "pais": "Argentina"},
+    {"nombre": "María", "edad": 29, "pais": "Perú"},
+    {"nombre": "Carlos", "edad": 41, "pais": "Chile"}
+]
